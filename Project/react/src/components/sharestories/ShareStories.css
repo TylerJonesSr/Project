@@ -1,0 +1,225 @@
+.share-stories-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ .share-stories-h1 {
+  text-align: center;
+} 
+
+.share-stories-label {
+  font-weight: bold;
+} 
+
+.share-stories-button {
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.share-stories-body-background {
+  background-image: url('https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.share-stories-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}  
+
+
+.share-story-carousel-image {
+  height: 450px;
+  display: block !important;
+  width: 100% !important;
+}
+
+
+.share-stories-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.share-stories-icon-shape {
+  background-color: #f8f9fe;
+  color: #343a40;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.share-stories-icon-text {
+  h4 {
+    font-weight: 600;
+  }
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+
+.share-stories-footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+  color: #00B697;
+  margin: 0 0.5rem;
+}
+
+.social-icons:hover {
+  color: #009688;
+}
+
+
+.share-story-text-color {
+  color: white;
+}
+
+
+.share-stories-title-text {
+  text-align: center;
+}
+
+.share-stories-typed-cursor {
+  color: #00B697;
+}
+
+.share-stories-h1 {
+  text-align: center;
+  font-size: 150%;
+  overflow: hidden;
+  animation: 3s steps(40, end);
+  white-space: nowrap;
+}
+
+.share-stories-paragraph {
+  text-align: center;
+  font-size: larger;
+  font: 22;
+  text-shadow: 2px 2px 4px #00B697;
+  font: bold;
+}
+
+
+.share-stories-card-hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: box-shadow 0.3s ease-in-out;
+  transform: scale(1.02);
+  width: 18rem;
+}
+
+.share-stories-custom-card-text {
+  font-size: 1rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 6rem;
+  line-height: 1.5;
+  margin: 1rem;
+}
+
+.share-stories-custom-card-footer {
+  background-color: #00B697;
+  padding: 1px;
+  border-top: 1px solid #ddd;
+}
+
+.share-stories-custom-card-author {
+  font-size: 0.875rem;
+  color: white;
+}
+
+.share-stories-card {
+  width: 300px;
+  height: 400px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-stories-card img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+} 
+
+.image-cell {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+  text-align: center;
+  vertical-align: middle; 
+}
+
+.share-stories-table {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+	vertical-align: middle;
+}
+
+.share-stories-search-button {
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.share-stories-search-container {
+  position: center;
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.share-stories-search-input {
+  width: 100%;
+  padding: 12px 24px;
+
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+  
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  transform-style: preserve-3d;
+
+  color: #575756;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 12px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #575756;
+  border-radius: 0;
+}
+
+.share-stories-card-footer {
+  margin-bottom: 1rem;
+}
